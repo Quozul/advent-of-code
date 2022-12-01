@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-	use crate::day1::{get_calories, part_1, part_2};
+	use crate::{get_calories, part_1, part_2};
 
 	#[test]
 	fn test_part1() {
