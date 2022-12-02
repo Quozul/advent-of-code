@@ -13,8 +13,8 @@ fn parse_input(c: char) -> Option<Shape> {
 }
 
 /// Params:
-/// * a : opponent's plays
-/// * b : own play
+/// * opponent : opponent's plays
+/// * own : own play
 fn get_outcome(opponent: Shape, own: &Shape) -> Outcome {
 	match opponent {
 		Shape::Rock => match own {
