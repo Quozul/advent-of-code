@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-	use crate::part1;
+	use crate::{part1, part2};
 
 	#[test]
 	fn test_char_score() {
@@ -15,10 +15,23 @@ mod tests {
 	#[test]
 	fn test_intersect() {
 		assert_eq!(part1::intersect("vJrwpWtwJgWr", "hcsFMMfFFhFp"), 16);
+		assert_eq!(
+			part2::intersect(
+				"vJrwpWtwJgWrhcsFMMfFFhFp",
+				"jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
+				"PmmdzqPrVvPwwTWBwg"
+			),
+			18
+		);
 	}
 
 	#[test]
 	fn test_part_1() {
 		assert_eq!(part1::get_priorities_sum(), 8394);
+	}
+
+	#[test]
+	fn test_part_2() {
+		assert_eq!(part2::get_badges(), 2413);
 	}
 }
