@@ -10,7 +10,7 @@ My take at Advent of Code 2022 in Rust.
 | 1   | Done - [Code](2022/day-1)               |
 | 2   | Done - [Code](2022/day-2)               |
 | 3   | Done - [Code](2022/day-3)               |
-| 4   | Not available yet - [Code](2022/day-4)  |
+| 4   | Done - [Code](2022/day-4)               |
 | 5   | Not available yet - [Code](2022/day-5)  |
 | 6   | Not available yet - [Code](2022/day-6)  |
 | 7   | Not available yet - [Code](2022/day-7)  |
